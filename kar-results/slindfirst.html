@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<HTML>
+
+<HEAD>
+    <TITLE>COMMON ENTRANCE TEST- 2023</TITLE>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" language="javascript">
+        function RefreshImage(valImageId) {
+            var objImage = document.getElementById(valImageId)
+            if (objImage == undefined) {
+                return;
+            }
+            var now = new Date();
+            objImage.src = objImage.src.split('?')[0] + '?x=' + now.toUTCString();
+        }
+    </script>
+
+    <script language=javascript>
+        function newwin() {
+            if (self != top)
+                top.location.href = "slindfirst.asp";
+        }
+    </script>
+
+
+
+    <SCRIPT language=JavaScript>
+
+        <!--
+        function FrontPage_Form1_Validator(theForm)
+        {
+        
+         if(theForm.txtCaptcha.value.length != 6)
+          {
+              alert("Please enter the text in the image in to the box provided");
+              theForm.txtCaptcha.focus();
+              return (false);
+          }
+        
+          if (theForm.reg.value == "")
+          {
+            alert("Please enter a value for the \"reg\" field.");
+            theForm.reg.focus();
+            return (false);
+          }
+        
+          if (theForm.reg.value.length < 10)
+          {
+            alert("Please enter at least 10 characters in the \"reg\" field.");
+            theForm.reg.focus();
+            return (false);
+          }
+        
+          if (theForm.reg.value.length > 10)
+          {
+            alert("Please enter at most 10 characters in the \"reg\" field.");
+            theForm.reg.focus();
+            return (false);
+          }
+        
+          var checkOK = "0123456789-,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+          var checkStr = theForm.reg.value;
+          var allValid = true;
+          var decPoints = 0;
+          var allNum = "";
+          for (i = 0;  i < checkStr.length;  i++)
+          {
+            ch = checkStr.charAt(i);
+            for (j = 0;  j < checkOK.length;  j++)
+              if (ch == checkOK.charAt(j))
+                break;
+            if (j == checkOK.length)
+            {
+              allValid = false;
+              break;
+            }
+            if (ch != ",")
+              allNum += ch;
+          }
+          if (!allValid)
+          {
+            alert("Please enter only digit characters in the \"reg\" field.");
+            theForm.reg.focus();
+            return (false);
+          }
+          return (true);
+        }
+        //--></SCRIPT>
+
+    <link rel="stylesheet" href="https://karresults.nic.in/css/bootstrap.css">
+</HEAD>
+
+<BODY onLoad="newwin()">
+    <div class="row" style="background-color: rgb(228, 156, 46);color:#fff;">
+        <div class="col-lg-6 col-md-offset-3">
+            <div style="text-align:center">
+                <h3>KARNATAKA EXAMINATIONS AUTHORITY</h3>
+                <h4> CET RESULTS 2023</h4>
+                <!-- <h4>Revised UGCET results as per the orders of the Hon'ble High court of Karnataka</h4>-->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <font style="font-size:18px; color:#F0F; font-weight:200"></font><br /></center>
+        </div>
+        <div class="row" style="margin:5em auto;">
+            <div class="col-lg-6 col-md-offset-3">
+                <FORM action="https://karresults.nic.in/slrespage.asp" method="post" name="FrontPage_Form1"
+                    onSubmit="return FrontPage_Form1_Validator(this)">
+                    <input type="hidden" id="frm_tokens" name="frm_tokens" value="0.4179193">
+
+                    <div class="form-group">
+                        <label for="reg">Enter Reg No.</label><input type="text" id="reg" name="reg" maxlength="10"
+                            autocomplete="off" class="form-control" placeholder="Enter Registration Number"
+                            required="true">
+                        (Ex. 23UGEAA001)
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Enter First four characters of your name</label><input type="text" id="name"
+                            name="name" maxlength="4" autocomplete="off" class="form-control" placeholder="Enter name"
+                            required="true">
+                        (Ex. C S LAHARI --Enter the first four characters as CSLA, T U K SAI PRANATHI--Enter the first
+                        four characters as TUKS)
+                    </div>
+
+                    <div class="form-group">
+                        (Ex. H D ANITA--Enter the first four characters as HDAN , K NANDITHA--Enter the first four
+                        characters as KNAN)
+                    </div>
+
+
+
+                    <button name="B1" type="submit" class="btn btn-default">Submit</button>
+
+
+
+                </form>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-offset-3">
+                    <h3>All The Best</h3>
+                    <!--<p><a class="btn btn-warning" href="http://kea.kar.nic.in">for KEA Home page</a></p>-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row col-lg-12" style="background-color:#222;color:#ABA9A9;font-size:smaller;max-width:1490px;">
+        <div class="col-lg-12" style="background-color:#222;">
+            <p>Disclaimer: Neither NIC &nbsp;nor KEA is responsible for any inadvertent error that may have crept in the
+                results being published on NET. The results published on net are for immediate information to the
+                examinees. These cannot be treated as original mark sheets.</p>
+        </div>
+
+
+        <div class="col-lg-4" style="background-color:#222;">
+            <p>Best viewed in IE 9.0 and above and Chrome and Mozilla Firefox</p>
+        </div>
+        <div class="col-lg-4" style="background-color:#222;">
+            <p>Data Provided by Karnataka Examinations Authority</p>
+        </div>
+        <div class="col-lg-4" style="background-color:#222;">
+            <p>Designed, Developed & Hosted by National Informatics Centre, Karnataka</p>
+        </div>
+
+    </div>
+</BODY>
+
+</HTML>

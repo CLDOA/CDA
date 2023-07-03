@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+
+<HTML>
+    
+<HEAD>
+    <TITLE>PUC Annual Examination Result - 2023</TITLE>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" language="javascript">
+        function RefreshImage(valImageId) {
+            var objImage = document.getElementById(valImageId)
+            if (objImage == undefined) {
+                return;
+            }
+            var now = new Date();
+            objImage.src = objImage.src.split('?')[0] + '?x=' + now.toUTCString();
+        }
+    </script>
+
+    <script language=javascript>
+        function newwin() {
+            if (self != top);
+            //top.location.href="indexPUC_2017.asp";
+        }
+    </script>
+
+    <SCRIPT language=JavaScript>
+        function FrontPage_Form1_Validator(theForm)
+        {
+         
+          if(theForm.txtCaptcha.value.length != 6)
+          {
+              alert("Please enter the text in the image in to the box provided");
+              theForm.txtCaptcha.focus();
+              return (false);
+          }
+          if (theForm.reg.value == "")
+          {
+            alert("Please enter a value for the \"reg\" field.");
+            theForm.reg.focus();
+            return (false);
+          }
+        
+          if (theForm.reg.value.length < 6)
+          {
+            alert("Please enter at least 6 characters in the \"reg\" field.");
+            theForm.reg.focus();
+            return (false);
+          }
+        
+          if (theForm.reg.value.length > 6)
+          {
+            alert("Please enter at most 6 characters in the \"reg\" field.");
+            theForm.reg.focus();
+            return (false);
+          }
+        
+          var checkOK = "0123456789";
+          var checkStr = theForm.reg.value;
+          var allValid = true;
+          var decPoints = 0;
+          var allNum = "";
+          for (i = 0;  i < checkStr.length;  i++)
+          {
+            ch = checkStr.charAt(i);
+            for (j = 0;  j < checkOK.length;  j++)
+              if (ch == checkOK.charAt(j))
+                break;
+            if (j == checkOK.length)
+            {
+              allValid = false;
+              break;
+            }
+            if (ch != ",")
+              allNum += ch;
+          }
+          if (!allValid)
+          {
+            alert("Please enter only digit characters in the \"reg\" field.");
+            theForm.reg.focus();
+            return (false);
+          }
+        
+          return (true);
+        }
+    </SCRIPT>
+    <link rel="stylesheet" href="https://karresults.nic.in/css/bootstrap.css">
+</HEAD>
+
+<BODY onLoad="newwin()" style="max-width: 1800px;">
+    <div class="row" style="background-color: rgb(228, 156, 46);color:#fff;">
+        <div class="col-lg-6 col-md-offset-3">
+            <div style="text-align:center">
+                <h3>KARNATAKA SCHOOL EXAMINATION AND ASSESSMENT BOARD</h3>
+                <h4>PUC Annual Examination Result - 2023</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <font style="font-size:18px; color:#F0F; font-weight:200"></font><br /></center>
+        </div>
+        <div class="row" style="margin:5em auto;">
+            <div class="col-lg-6 col-md-offset-3">
+                <FORM action='https://karresults.nic.in/slakresfirst.asp' method='post' name='FrontPage_Form1'
+                    onSubmit="return FrontPage_Form1_Validator(this)">
+                    <input type="hidden" id="frmpuc_tokens" name="frmpuc_tokens" value="0.1309931">
+                    <div class="form-group">
+                        <label for="reg">Enter Reg No.</label><input type="text" id="reg" name="reg" maxlength="6"
+                            autocomplete="off" class="form-control" placeholder="Enter Registration Number"
+                            required="true">
+                    </div>
+                    <label for="ddlday">Select Subject</label>
+                    <div class="form-group">
+                        <div>
+                            <select id="ddlsub" name="ddlsub" required="true">
+                                <!--<option value=""> Subject Combination </option>-->
+                                <option value="S">Science</option>
+                                <!--<option value="A">Arts</option>-->
+                                <!--<option value="C">Commerce</option>-->
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-offset-3">
+                    <h3>All The Best</h3>
+                    <p align="left">&nbsp;</p>
+                    <p align="left">&nbsp;</p>
+                    <p align="left">&nbsp;</p>
+                    <p align="left">&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row col-lg-12" style="background-color:#222;color:#ABA9A9;font-size:smaller;max-width: 1490px;">
+        <div class="col-lg-12" style="background-color:#222;">
+            <p>Disclaimer: Neither NIC nor KARNATAKA SCHOOL EXAMINATION AND ASSESSMENT BOARD, KARNATAKA is responsible
+                for any inadvertent error that may have crept in the results being published on NET. The results
+                published on net are for immediate information to the examinees. This cannot be treated as original mark
+                sheets. Original mark sheet will be issued by the Board separately</p>
+        </div>
+        <div class="col-lg-12">
+            <p align="left">&nbsp;</p>
+        </div>
+        <div class="col-lg-3" style="background-color:#222;">
+            <p>Best viewed in IE 9.0 and above and Chrome and Mozilla Firefox</p>
+        </div>
+        <div class="col-lg-5" style="background-color:#222;">
+            <p>Content owned, maintained & updated by KARNATAKA SCHOOL EXAMINATION AND ASSESSMENT BOARD, KARNATAKA</p>
+        </div>
+        <div class="col-lg-4" style="background-color:#222;">
+            <p>Designed, Developed & Hosted by National Informatics Centre, Karnataka</p>
+        </div>
+    </div>
+</BODY>
+
+</HTML>
