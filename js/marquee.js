@@ -1,0 +1,11 @@
+document.write('<div class="contanier bg-white justify-content-center mt-1">');
+document.write('    <marquee behavior="sliding" direction="left" scrollamount="10">');
+document.write('      <h4>');
+document.write('        <strong>');
+document.write('          <a href="" style="color: red;"></a>');
+document.write('          <br>');
+document.write('          <a href="" style="color: red;"></a>');
+document.write('        </strong>');
+document.write('      </h4>');
+document.write('    </marquee>');
+document.write('  </div>');
