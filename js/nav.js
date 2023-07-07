@@ -26,7 +26,7 @@ document.write('            </ul>');
 document.write('          </li>');
 document.write('          <li class="nav-item dropdown">');
 document.write('            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"');
-document.write('              aria-expanded="false">COMPETITIVE EXAM 2024 (Updating Soon....)</a>');
+document.write('              aria-expanded="false">COMPETITIVE EXAM 2024</a>');
 document.write('            <ul class="dropdown-menu">');
 document.write('              <li><a class="dropdown-item disabled " href="rd/rd-24-jee-main.html">JEE-MAIN</a></li>');
 document.write('              <li><a class="dropdown-item disabled " href="rd/rd-24-jee-adv.html">JEE-ADV</a></li>');
@@ -38,7 +38,7 @@ document.write('              <li><a class="dropdown-item disabled " href="rd/rd
 document.write('            </ul>');
 document.write('          </li>');
 document.write('          <li class="nav-item">');
-document.write('            <a class="nav-link" aria-current="page" href="#">Contact Us</a>');
+document.write('            <a class="nav-link" aria-current="page" href="contactus.html">Contact Us</a>');
 document.write('          </li>');
 document.write('        </ul>');
 document.write('      </div>');
