@@ -58,6 +58,6 @@ document.write('            <i class="fa-brands fa-twitter fa-2xl" style="color:
 document.write('          </a>&nbsp;&nbsp;');
 document.write('        </ul>');
 document.write('      </div>');
-document.write('       <div class="container-xxl bg-dark text-white"><center><h6>Version 2.1.0</h6></center></div>')
+document.write('       <div class="container-xxl bg-dark text-white"><center><h6>Version 2.1.0</h6></center></div>');
 document.write('    </footer>');
 document.write('  </div>');
