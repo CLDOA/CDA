@@ -1,0 +1,11 @@
+document.write('<div id="header">');
+document.write('<h1>Server Error</h1>');
+document.write('</div>');
+document.write('<div id="content">');
+document.write('<div class="content-container">');
+document.write('<fieldset>');
+document.write('<h2>404 - File or directory not found.</h2>');
+document.write('<h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>');
+document.write('</fieldset>');
+document.write('</div>');
+document.write('</div>');
