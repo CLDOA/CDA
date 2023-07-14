@@ -2,7 +2,7 @@ document.write('<div class="contanier bg-white justify-content-center mt-1">');
 document.write('<marquee behavior="sliding" direction="left" scrollamount="10">');
 document.write('<h4>');
 document.write('<strong>');
-document.write('<a href="" style="color: red;"></a>');
+document.write('<a href="pdf/2023/Mock_Allotment_Cut_off_Ranks_for_Comedk_Engg_Seats-2023.pdf" style="color: red;">Comedk - 2023 Mock Allotment Cut off Ranks for Comedk Engineering Seats</a>');
 document.write('<br>');
 document.write('<a href="" style="color: red;"></a>');
 document.write('</strong>');
