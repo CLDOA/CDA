@@ -1,3 +1,9 @@
-.div .a .alert-link{
-    color: black;
+iframe{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:1200px) {
+    .cc{
+        height: 400px;
+    }
 }

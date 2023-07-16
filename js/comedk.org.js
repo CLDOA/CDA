@@ -1,0 +1,12 @@
+document.write('<a href="../comedk.org/" class="alert-link">');
+document.write('<div class="container">');
+document.write('<div class="shadow-lg p-1 bg-dark text-white rounded-lg">');
+document.write('<h2>');
+document.write('<center>');
+document.write('Comedk Webiste');
+document.write('</center>');
+document.write('</h2>');
+document.write('</div>');
+document.write('</div>');
+document.write('<br>');
+document.write('</a>');
