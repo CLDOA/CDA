@@ -10,11 +10,10 @@ document.write('                <img src="contents/White.jpg" class="w-100" styl
 document.write('                <div class="carousel-caption text-dark" style="width: 100%;">');
 document.write('                    <h3><strong><span style="color: Black;">Comedk - 2023 - Info</span></strong></h3><br>');
 document.write('                    <h5>');
-document.write('                        <strong>Mock Allotment Result : <span style="color: red;">2 PM, 14 July 2023</span></strong><br>');
-document.write('                        <strong>Mock Round is a trial round hence you will not see any decision tabs </strong><br>');
-document.write('                        <strong><span style="color: red;">Provision to change / edit preferences in choice filling form</strong> <br><br>');
-document.write('                        <strong>Starts From : <span style="color: red;">2 PM, 14 July 2023 to 3 PM, 16 July 2023</span></strong><br>');
-document.write('                        <strong>First Round Allotment Result : <span style="color: red;">2PM, 18 July 2023</span></strong>');
+document.write('                        <strong>Round 1 Decision making and Fee Payment:</strong><br><br>');
+document.write('                        <strong><span style="color: red;">LAST DAY NOW EXTENDED TO 12 NOON, 21 JULY</span></strong> <br><br>');
+document.write('                        <strong>Accept & Freeze, Accept & Upgrade & Reject & Upgrade decisions will be required to make payment of Total fee of allotted college during decision making</strong> <br><br>');
+document.write('                        <strong>Accept & Freeze Candidates : <br><span style="color: red;">Last date to report to college 12 noon of 22nd July.</span></strong>');
 document.write('                        <br><br>');
 document.write('                        <!--<strong>');
 document.write('                            <span style="color: red;">FEE PAYMENT : </span>');
