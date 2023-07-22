@@ -3,7 +3,7 @@ document.write('<div class="container">');
 document.write('<div class="shadow-lg p-1 bg-dark text-white rounded-lg">');
 document.write('<h2>');
 document.write('<center>');
-document.write('Comedk Webiste');
+document.write('Comedk Official Webiste');
 document.write('</center>');
 document.write('</h2>');
 document.write('</div>');

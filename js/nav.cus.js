@@ -9,7 +9,7 @@ document.write('      </button>');
 document.write('      <div class="collapse navbar-collapse" id="navbarsExample01">');
 document.write('        <ul class="navbar-nav me-auto mb-2">');
 document.write('          <li class="nav-item">');
-document.write('            <a class="nav-link active" aria-current="page" href="../rd/rd-index.html">Home</a>');
+document.write('            <a class="nav-link" aria-current="page" href="../rd/rd-index.html">Home</a>');
 document.write('          </li>');
 document.write('          <li class="nav-item dropdown">');
 document.write('            <a class="nav-link dropdown-toggle" href="../rd/rd-23-ce.html" data-bs-toggle="dropdown"');
@@ -38,7 +38,7 @@ document.write('              <li><a class="dropdown-item disabled " href="../rd
 document.write('            </ul>');
 document.write('          </li>');
 document.write('          <li class="nav-item">');
-document.write('            <a class="nav-link" aria-current="page" href="contact.us.html">Contact Us</a>');
+document.write('            <a class="nav-link active" aria-current="page" href="contact.us.html">Contact Us</a>');
 document.write('          </li>');
 document.write('        </ul>');
 document.write('      </div>');

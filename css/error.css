@@ -48,3 +48,30 @@ h3 {
     padding: 10px;
     position: relative;
 }
+
+.typewriter{
+    background-color: #555555;
+}
+
+.typewriter h1{
+    background-color: #555555;
+    color: #FFF;
+    text-align: center;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15rem solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .10rem;
+    animation: typing 5s steps(30) infinite alternate, blink-caret .5s steps(30) infinite;
+}
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}    
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent;}
+    50% {border-color: orange;}
+}

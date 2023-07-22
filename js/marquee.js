@@ -2,7 +2,7 @@ document.write('<div class="contanier bg-white justify-content-center mt-1">');
 document.write('<marquee behavior="sliding" direction="left" scrollamount="10">');
 document.write('<h4>');
 document.write('<strong>');
-document.write('<a href="/pdf/2023/comedk-23-engineering-round1-cutoff-ranks.pdf" style="color: red;">Comedk - 2023 Engineering Vacant Seats After Round 1 Allotment</a>');
+document.write('<a href="" style="color: red;">Comedk - 2023 [Round - 2] Counselling Schedule for Engineering Announced</a>');
 document.write('<br>');
 document.write('<a href="" style="color: red;"></a>');
 document.write('</strong>');
