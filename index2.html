@@ -7,3 +7,34 @@
     <script src="js/error.js"></script>
 </body>
 </html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+
+    <p>Last modified: <span id="lastModified"></span></p>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var lastModifiedElement = document.getElementById("lastModified");
+            var lastModifiedDate = new Date(document.lastModified);
+            var formattedDate = formatDate(lastModifiedDate);
+            lastModifiedElement.textContent = formattedDate;
+        });
+
+        function formatDate(date) {
+            var year = date.getFullYear();
+            var month = (date.getMonth() + 1).toString().padStart(2, "0");
+            var day = date.getDate().toString().padStart(2, "0");
+            
+            return `${day}-${month}-${year}`;
+        }
+    </script>
+</body>
+</html>
