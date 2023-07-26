@@ -69,3 +69,4 @@ document.write('      </div>');
 document.write('       <div class="container-xxl bg-dark text-white"><center><h6>Version 2.1.11</h6></center></div>');
 document.write('    </footer>');
 document.write('  </div>');
+document.write('');
