@@ -1,4 +1,4 @@
-document.write('<div class="container">');
+document.write('<div class="container-xxl">');
 document.write('    <footer class="py-3">');
 document.write('      <h5>College Dosth Acadmey</h5>');
 document.write('      <div class="row">');
