@@ -5224,7 +5224,7 @@ fieldset:disabled .btn {
 
 .accordion-button {
     position: relative;
-    display: flex;
+    display: block;
     align-items: center;
     width: 100%;
     padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
@@ -5236,6 +5236,7 @@ fieldset:disabled .btn {
     border-radius: 0;
     overflow-anchor: none;
     transition: var(--bs-accordion-transition)
+
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -5545,7 +5546,15 @@ fieldset:disabled .btn {
 
 .alert-link {
     font-weight: 700;
-    color: var(--bs-alert-link-color)
+    color: var(--bs-alert-link-color);
+}
+.alert-links {
+    font-weight: 700;
+    color: var(--bs-alert-link-color);
+    text-decoration: none
+}
+.al-100 {
+    font-weight: 400
 }
 
 .alert-dismissible {
