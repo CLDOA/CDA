@@ -5548,16 +5548,22 @@ fieldset:disabled .btn {
     font-weight: 700;
     color: var(--bs-alert-link-color);
 }
+
 .alert-links {
     font-weight: 700;
     color: #000;
     text-decoration: none
 }
+
 .al-100 {
     color: var(--bs-dark);
     font-weight: 400
 }
-
+.al-comedk{
+    font-weight: 700;
+    color: #000;
+    color: #ffffff;
+}
 .alert-dismissible {
     padding-right: 3rem
 }
