@@ -5550,7 +5550,7 @@ fieldset:disabled .btn {
 }
 .alert-links {
     font-weight: 700;
-    color: var(--bs-dark);
+    color: #000;
     text-decoration: none
 }
 .al-100 {
