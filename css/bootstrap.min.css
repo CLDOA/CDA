@@ -5550,10 +5550,11 @@ fieldset:disabled .btn {
 }
 .alert-links {
     font-weight: 700;
-    color: var(--bs-alert-link-color);
+    color: var(--bs-dark);
     text-decoration: none
 }
 .al-100 {
+    color: var(--bs-dark);
     font-weight: 400
 }
 
