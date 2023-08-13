@@ -5235,8 +5235,7 @@ fieldset:disabled .btn {
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
-    transition: var(--bs-accordion-transition)
-
+    transition: var(--bs-accordion-transition);
 }
 
 @media (prefers-reduced-motion:reduce) {
