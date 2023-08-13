@@ -8169,7 +8169,7 @@ fieldset:disabled .btn {
 }
 
 .vr {
-    display: inline-block;
+    display: inline-flex;
     align-self: stretch;
     width: 1px;
     min-height: 1em;
