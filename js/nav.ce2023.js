@@ -1,7 +1,12 @@
+// Independence Day 
+// document.write('<nav class="navbar navbar-dark text-center bg-dark"><div class="container"><a class="navbar-brand"><img class="navimg-1" src="../contents/india.jpg">&nbsp;&nbsp;&nbsp;<img class="navimg-1" src="../contents/logo-black.png">&nbsp;&nbsp;&nbsp;<img class="navimg-1" src="../contents/g-20-logo.png">&nbsp;&nbsp;&nbsp;<img class="navimg-2" src="../contents/har-ghar-tiranga-main.jpg"></a><a class="navbar-brand navbar-2"><img class="navimg-1" src="../contents/india.jpg">&nbsp;&nbsp;&nbsp;<img class="navimg-1" src="../contents/logo-black.png">&nbsp;&nbsp;&nbsp;<img class="navimg-1" src="../contents/g-20-logo.png">&nbsp;&nbsp;&nbsp;<img class="navimg-2" src="../contents/har-ghar-tiranga-main.jpg"></a></div></nav>');
+// End 
+
+// Main Nav
 
 document.write('<nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">');
 document.write('    <div class="container-fluid">');
-document.write('      <a class="navbar-brand" href="../rd/rd-index.html">COLLEGE DOSTH ACADMEY</a>');
+document.write('      <a class="navbar-brand p-1" href="../rd/rd-index.html">COLLEGE DOSTH ACADMEY</a>');
 document.write('      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01"');
 document.write('        aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">');
 document.write('        <span class="navbar-toggler-icon"></span>');
