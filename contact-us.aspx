@@ -21,11 +21,9 @@
 
   <link rel="stylesheet" type="text/css" href="https://colorlib.com/etc/cf/ContactFrom_v1/vendor/animate/animate.css">
 
-  <link rel="stylesheet" type="text/css"
-    href="https://colorlib.com/etc/cf/ContactFrom_v1/vendor/css-hamburgers/hamburgers.min.css">
+  <link rel="stylesheet" type="text/css" href="https://colorlib.com/etc/cf/ContactFrom_v1/vendor/css-hamburgers/hamburgers.min.css">
 
-  <link rel="stylesheet" type="text/css"
-    href="https://colorlib.com/etc/cf/ContactFrom_v1/vendor/select2/select2.min.css">
+  <link rel="stylesheet" type="text/css" href="https://colorlib.com/etc/cf/ContactFrom_v1/vendor/select2/select2.min.css">
 
   <link rel="stylesheet" type="text/css" href="https://colorlib.com/etc/cf/ContactFrom_v1/css/util.css">
   <link rel="stylesheet" type="text/css" href="https://colorlib.com/etc/cf/ContactFrom_v1/css/main.css">
